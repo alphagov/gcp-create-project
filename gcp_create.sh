@@ -1,4 +1,5 @@
-# to do, on project id error allow it to be changed
+#!/bin/bash
+# to do: installation script so runs nativley from terminal, eg alias?
 
 set_project_id () {
     read -p "Please enter your new Google Cloud Project ID: " project_id
