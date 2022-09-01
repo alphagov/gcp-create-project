@@ -40,7 +40,7 @@ echo $"These are the folders you have access to: "
 FORMAT="csv[no-heading](name,displayName.encode(base64))"
 folders()
 {
-  LINES=("$@")
+  LINES="$@"
   for LINE in ${LINES[@]}
   do
     # Parses lines of the form folder,name
